@@ -72,9 +72,11 @@ main {
     gap: 105px;
     margin: 140px 0;
 }
+
 #about-title {
     width: 288px;
 }
+
 .about-me-text {
     color: #444343;
     font-size: 16px;
@@ -91,9 +93,37 @@ main {
     line-height: 26px;
     margin-bottom: 8px;
 }
+
 .some-text li i {
     color: #16D887;
     margin-right: 10px;
 }
 
 /* About me part CSS end here */
+
+/* My plans part HTML start from here */
+#plans-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plan-item-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.inner-section-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px 0 16px 0;
+}
+
+.plan-item p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* My plans part HTML end here */
