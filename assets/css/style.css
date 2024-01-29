@@ -1,5 +1,99 @@
 * {
     padding: 0;
     margin: 0;
-    
+    font-family: "Work Sans", sans-serif;
 }
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* Shared CSS start from here */
+.primary-btn {
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Shared CSS end here */
+
+/* Header part CSS start from here */
+.banner {
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    text-align: right;
+    padding: 216px 230px 130px 0;
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    margin-left: auto;
+}
+
+.banner-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    margin: 24px 0 32px auto;
+}
+
+/* Header part CSS end here */
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* About me part CSS start from here */
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+    margin: 140px 0;
+}
+#about-title {
+    width: 288px;
+}
+.about-me-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px 0;
+    width: 416px;
+}
+
+.some-text li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.some-text li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* About me part CSS end here */
