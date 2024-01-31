@@ -127,3 +127,94 @@ main {
 }
 
 /* My plans part HTML end here */
+
+/* CTA part CSS start from here */
+.cta {
+    padding: 60px 64px;
+    background: url(../images/gradient1.png), url(../images/watch.png);
+    margin: 130px 0;
+}
+
+#cta-section-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    margin-bottom: 24px;
+}
+
+#cta-primary-btn {
+    background: #FFF;
+    color: #F15B22;
+}
+
+/* CTA part CSS end here */
+
+/* Footer part CSS start from here */
+footer {
+    padding: 130px 230px;
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+    width: 485px;
+}
+
+.contact-details li {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.footer-social-links ul {
+    display: flex;
+    margin-top: 16px;
+}
+
+.footer-social-links ul li a {
+    margin-right: 18px;
+}
+
+.newsletter-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.footer-column form input {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    padding: 20px 150px 20px 20px;
+    outline: 0;
+    margin: 50px 0 16px 0;
+}
+
+.footer-column form input::placeholder {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#footer-btn {
+    background: #fff;
+    color: #F15B22;
+    display: block;
+}
+/* Footer part CSS end here */
